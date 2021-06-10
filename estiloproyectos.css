@@ -1,0 +1,132 @@
+body{
+	background-color: #90CAF9;
+}
+div#titulo{
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+}
+p#header{
+	text-align: center;
+	font-size: 1.4em;
+	color: black;
+	background-color: transparent;
+	font-family: Arial;
+}
+img#imagen1{
+	float: left;
+	width: 160px;
+	height: 70px;
+	margin-right: 50px;
+	margin-top: -55px;
+	background-color: transparent;
+}
+img#imagen2{
+	float: right;
+	width: 160px;
+	height: 70px;
+	margin-right: 50px;
+	margin-top: -55px;
+	background-color: transparent;
+}
+.zoom{
+	transition: width 1.1s, height 1.1s, transform 1.1s;
+	-moz-transition: width 1.1s, height 1.1s, -moz-transform 1.1s;
+	-webkit-transition: width 1.1s, height 1.1s, -webkit-transform 1.1s;
+	-o-transition:width 1.1s, height 1.1s, -o-transform 1.1s;
+}
+.zoom:hover{
+	transform: scale(2);
+	-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+}
+#proyectos{
+	height: 1299px;
+	background-color:#29B6F6;
+	padding-left: 300px;
+	padding-top:35px;
+	width: 1124px;
+	border-top: 3px black solid;
+	font-family: Arial;
+	text-align: left;
+	text-align: justify;
+	font-size: 12.9pt;
+	margin-top: 10px;
+
+}
+#lado2{
+	font-family: Arial;
+	border-right: 3px black solid;
+	border-left: 3px black solid;
+	border-top: 3px black solid;
+	line-height: 22px;
+	padding-top: 25px;
+	color: black;
+	padding-left: 20px;
+	margin-left: -12px;
+	float: left;
+	height: 1309px;
+	width: 220px;
+	background-color:#1E88E5;
+	margin-top: 10px;	
+}
+#lado1{
+	font-family: Arial;
+	border-right: 3px black solid;
+	border-left: 3px black solid;
+	border-top: 3px black solid;
+	line-height: 22px;
+	padding-top: 25px;
+	color: black;
+	padding-left: 20px;
+	margin-left: -12px;
+	float: right;
+	height: 1309px;
+	width: 220px;
+	background-color: #1E88E5;
+	margin-top: 10px;	
+}
+iframe{
+	height: 131px;
+	margin-bottom: 14px;
+	width: 216px;
+	border: black 4px; 
+}
+img{
+	margin-top: 20px;
+	margin-left: 130px;
+	margin-right: 11px;
+	margin-bottom: 21px;
+	height: 250px;
+	width: 800px;
+}
+#twitch{
+	height: 250px;
+	width: 210px;
+	margin-left: 2px;
+	margin-top:9px;
+}
+a{
+	text-decoration: none;
+	color: #030303;
+}
+h1{
+	text-align: center;
+	font-size: 29px;
+}
+#abajo{
+	font-family: Consolas;
+	padding-left: 410px;
+	padding-top: 20px;
+	height: 75px;
+	background-color: #64B5F6;
+	font-size: 1.1em;
+}
+#correo{
+	font-family: Consolas;
+	color:#E67E22; 
+	background-color:transparent;
+	text-decoration: none;
+
+}

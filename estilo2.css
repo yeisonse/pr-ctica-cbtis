@@ -1,0 +1,180 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	background-color: #D5F5E3 ;
+}
+.zoom{
+	transition: width 1s, height 1s, transform 1s;
+	-moz-transition: width 1s, height 1s, -moz-transform 1s;
+	-webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+	-o-transition:width 1s, height 1s, -o-transform 1s;
+}
+.zoom:hover{
+	transform: scale(2);
+	-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+}
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float: left; 
+}
+p#subheader{
+	text-align: center;
+	margin-top: 70px;
+	font-size: 1.5em;
+	color: black;
+}
+#header2{
+	background-color: transparent;
+	margin:70px auto;
+	height: 230px;
+	width: 1200px;
+}
+#mision{
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	background-color: #2471A3;
+	border: #CDC28B 7px double;
+}
+#vision{
+	text-align: center;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #CDC28B;
+	border: #7F8C8D 7px double;  
+}
+div.subcontenedor{
+	float: left;
+	width: 580px
+	height:230px;
+}
+img#imagen1{
+		float: left;
+		width: 80px;
+		margin-left: 100px;
+
+}
+img#imagen2{
+	width: 290px;
+	float: right;
+	margin-right: 100px;
+}
+p#header{
+	text-align: center;
+	font-size: 1.8em;
+	color: black;
+	margin-top: 10px;
+}
+p.texto{
+	font-size: 1.2em;
+	color: blue;
+	text-align: center;
+	padding-top: 10px;
+	opacity: .6; 
+}
+header{
+	margin: 100px auto;
+	width: 1200px;
+	height: 230px;
+	background-color: transparent;  
+}
+h2{
+	text-align: center;
+	font-family: consolas;
+	color: white;
+	background: linear-gradient(to right,#283747,#1C2833);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+p.info{
+	background-color: transparent;
+	text-align: justify;
+	padding: 32px;
+	line-height: 1.4em;
+	font-family: Cambria;
+}
+strong{
+	background-color: transparent;
+	font-family: Century Gothic;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.tittle{
+	text-shadow: 4px 4px 4px #555555;
+	font-size: 18px;
+}
+#pie{
+	text-align: center;
+	background-color: #AAB7B8;
+	height: 70px;
+	width: 800px;
+	padding: 10px;
+	margin-bottom: 50px;
+	margin-top: 150px;
+	margin-left: 300px;
+	border-radius: 34px;
+	border:black 8px double;
+	font-family: Arial Rounded MT Bold;
+	box-shadow: 5px 5px 5px 5px #464646;
+}
+#correo{
+	font-family: Dotum;
+	color: #117A65;
+	background-color: transparent;
+	text-decoration: none;
+}
+div#uno{
+	background-color: rgb(233,147,26);
+}
+div#dos{
+	background-color: rgb(208,101,3);
+}
+div#tres{
+	background-color: rgb(22,145,190);
+}
+div#cuatro{
+	background-color: rgb(27,107,162);
+}
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+div#seis{
+	background-color: rgb(21,40,54);
+}
+img.icon{
+	display: block;
+	margin: 50px;
+	background-color: rgba(255,255,255,.15); 
+	width: 40px;
+	padding: 20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+}
+#mostrar{
+	text-align: center;
+	color: silver;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: candara;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+#ocultar{
+	text-align: center;
+	color: silver;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: candara;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
